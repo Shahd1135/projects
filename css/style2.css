@@ -39,6 +39,11 @@ nav a {
   transition: 0.3s;
 }
 
+nav h1{
+  margin-right: auto; 
+  color: white;
+}
+
 nav a:hover {
   background-color: transparent;
   padding: 0;
