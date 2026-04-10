@@ -22,7 +22,7 @@ body {
   flex-direction: column;
 }
 
-
+/* NAWIGACJA */
 .nav {
   display: flex;
   justify-content: space-between;
@@ -49,7 +49,7 @@ body {
   color: #3882F6;
 }
 
-
+/* CYTAT */
 .quote-section {
   background-color: #E5E7EB;
   padding: 80px 20px;
@@ -203,15 +203,20 @@ body {
 
 .back-to-top-container {
   text-align: center;
-  padding: 40px 0;
+  padding: 50px 0; 
   background-color: #F9FAF8;
 }
 
 .back-to-top-link {
-  color: #3882F6;
+  color: #3882F6 !important; 
   text-decoration: none;
   font-weight: bold;
   font-size: 18px;
+  display: inline-block; 
+}
+
+.back-to-top-link:hover {
+  text-decoration: underline;
 }
 
 
@@ -220,7 +225,7 @@ body {
   color: #F9FAF8;
   text-align: center;
   padding: 40px 20px;
-  margin-top: auto;
+  margin-top: 0; 
 }
 
 .footer p {
