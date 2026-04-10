@@ -41,7 +41,9 @@ nav a {
 
 nav h1{
   margin-right: auto; 
-  color: white;
+   font-size: 24px;
+  color: #F9FAF8;
+  font-weight: bold;
 }
 
 nav a:hover {
