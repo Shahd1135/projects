@@ -22,7 +22,6 @@ body {
   flex-direction: column;
 }
 
-/* NAWIGACJA */
 .nav {
   display: flex;
   justify-content: space-between;
@@ -49,7 +48,7 @@ body {
   color: #3882F6;
 }
 
-/* CYTAT */
+
 .quote-section {
   background-color: #E5E7EB;
   padding: 80px 20px;
@@ -81,7 +80,7 @@ body {
 }
 
 .section-title {
-  font-size: 42px;
+  font-size: 48px;
   font-weight: 800;
   margin-bottom: 5px;
 }
