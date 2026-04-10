@@ -16,22 +16,22 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #d6c9b4;
-  color: #3a2e22;
+  background-color: #e5e7eb;
+  color: #1f2937;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
 
 nav {
-  background-color: #c4b49a;
+  background-color: #1f2937;
   padding: 20px 28px;
-  border-bottom: 1px solid rgba(160, 120, 70, 0.2);
+  border-bottom: 1px solid rgba(56, 130, 246, 0.2);
 }
 
 nav a {
   text-decoration: none;
-  color: #5a3e24;
+  color: #e5e7eb;
   font-size: 11px;
   letter-spacing: 0.25em;
   text-transform: uppercase;
@@ -42,7 +42,7 @@ nav a:hover {
   background-color: transparent;
   padding: 0;
   border-radius: 0;
-  color: #7a4a18;
+  color: #3882f6;
 }
 
 .images-details {
@@ -55,12 +55,12 @@ nav a:hover {
 .images-details figure img {
   border-radius: 8px;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
-  border: 1px solid rgba(196, 156, 98, 0.2);
+  border: 1px solid rgba(56, 130, 246, 0.2);
   display: block;
 }
 
 .images-details figure:hover img {
-  box-shadow: 0 12px 40px rgba(196, 156, 98, 0.15);
+  box-shadow: 0 12px 40px rgba(56, 130, 246, 0.3);
 }
 
 .images-details figure figcaption {
@@ -69,26 +69,26 @@ nav a:hover {
   font-weight: 600;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: #5c3614;
+  color: #3882f6;
 }
 
 .images-details figure p {
   margin-top: 6px;
   font-size: 12.5px;
   line-height: 1.65;
-  color: #4a3828;
+  color: #374151;
   font-weight: 300;
 }
 
 .footer {
-  background-color: #c4b49a;
+  background-color: #1f2937;
   padding: 18px;
   text-align: center;
-  border-top: 1px solid rgba(160, 120, 70, 0.2);
+  border-top: 1px solid rgba(56, 130, 246, 0.2);
   font-size: 11px;
   letter-spacing: 0.15em;
   text-transform: uppercase;
-  color: #6b5030;
+  color: #e5e7eb;
 }
 
 /* About Us Page */
@@ -112,14 +112,14 @@ nav a:hover {
   font-size: 22px;
   font-weight: 600;
   text-transform: uppercase;
-  color: #5c3614;
+  color: #3882f6;
   margin-bottom: 16px;
 }
 
 .about-text p {
   font-size: 13.5px;
   line-height: 1.8;
-  color: #4a3828;
+  color: #374151;
   font-weight: 300;
 }
 
@@ -129,7 +129,7 @@ nav a:hover {
   object-fit: cover;
   border-radius: 8px;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
-  border: 1px solid rgba(160, 120, 70, 0.2);
+  border: 1px solid rgba(56, 130, 246, 0.2);
 }
 
 .about-section {
