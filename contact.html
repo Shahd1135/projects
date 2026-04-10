@@ -1,74 +1,80 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Contact - Coffee Shop</title>
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Coffee House</title>
   <link rel="stylesheet" href="css/style.css">
-
-  <!-- If you downloaded Roboto, link it locally instead -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
+<body id="top">
 
-<body>
-
-  <!-- Header -->
-  <header class="header">
-    <h1>Coffee House ☕</h1>
-    <nav>
+  <nav class="nav">
+    <h2>Coffee House</h2>
+    <div>
       <a href="index.html">Home</a>
+      <a href="menu.html">Menu</a>
       <a href="about.html">About</a>
       <a href="contact.html">Contact</a>
-    </nav>
-  </header>
+    </div>
+  </nav>
 
-  <!-- Testimonials -->
   <section class="testimonials">
-    <h2>What Our Customers Say</h2>
-
-    <div class="cards">
-
-      <div class="card">
-        <p>"The best coffee experience I've ever had!"</p>
-        <span>- Sarah</span>
-      </div>
-
-      <div class="card">
-        <p>"Cozy atmosphere and amazing drinks."</p>
-        <span>- Ahmed</span>
-      </div>
-
-      <div class="card">
-        <p>"I love the variety and the friendly staff."</p>
-        <span>- Lina</span>
-      </div>
-
+    <div class="quote-container">
+      <p class="quote-text">"A morning without coffee is like sleep. It's simply impossible here. Best beans in the city!"</p>
+      <p class="quote-author">- Thor, Coffee Enthusiast</p>
     </div>
   </section>
 
-  <!-- Contact -->
-  <section class="contact">
-    <h2>Get In Touch</h2>
+  <section class="location-section">
+    <div class="location-container">
+      <div class="location-content">
+        <h2>Visit Us</h2>
+        <p class="address">Via Dante 18, 20121 Milano MI, Italy</p>
+        
+        <div class="map-wrapper-left">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2798.0998039074557!2d9.183031599999998!3d45.4677934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786c1529ea11aed%3A0xd7ad0b16b3c83691!2sVia%20Dante%2C%2018%2C%2020121%20Milano%20MI%2C%20W%C5%82ochy!5e0!3m2!1spl!2spl!4v1775843778966!5m2!1spl!2spl" 
+            width="100%" 
+            height="350" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade"
+            class="rounded-img-map">
+          </iframe>
+        </div>
 
-    <div class="contact-container">
-
-      <div class="info">
-        <p><strong>Email:</strong> coffee@brew.com</p>
-        <p><strong>Phone:</strong> +968 1234 5678</p>
-        <p><strong>Location:</strong> Muscat, Oman</p>
+        <p>Come and enjoy the best atmosphere in the city. Our doors are open for every coffee lover! We serve artisanal coffee brewed with passion.</p>
+        
+        <div class="info-grid-simple">
+          <p><strong>Phone:</strong> +39 02 1234567</p>
+          <p><strong>Email:</strong> info@coffeehouse.com</p>
+          <p><strong>Instagram:</strong> @coffeehouse_shop</p>
+        </div>
       </div>
-
-      <form class="form">
-        <input type="text" placeholder="Your Name" required>
-        <input type="email" placeholder="Your Email" required>
-        <textarea placeholder="Your Message"></textarea>
-        <button type="submit">Send Message</button>
-      </form>
-
+      <div class="location-image">
+        <img src="images/coffeeshop.jpg" alt="Our Coffee Shop Interior" class="rounded-img">
+      </div>
     </div>
   </section>
 
-  <!-- Footer -->
+  <section class="reservations">
+    <div class="booking-box">
+      <div class="cta-content">
+        <div class="cta-text">
+          <h3>Book Your Table</h3>
+          <p>Secure your favorite cozy corner for a perfect coffee date.</p>
+        </div>
+        <button type="button" class="cta-button">Reserve Now</button>
+      </div>
+    </div>
+  </section>
+
   <footer class="footer">
+    <div class="back-to-top">
+      <a href="#top">Back to Top ↑</a>
+    </div>
     <p>© 2026 Coffee House. All rights reserved.</p>
   </footer>
 
