@@ -16,8 +16,9 @@ body {
 .nav {
   display: flex;
   justify-content: space-between;
-  background-color: #1F2937; 
-  padding: 15px 40px;
+  align-items: center;
+  background-color: #1F2937;
+  padding: 15px 60px;
 }
 
 .nav h2 {
@@ -34,40 +35,56 @@ body {
 }
 
 .hero {
-  height: 90vh;
-  background: 
-    linear-gradient(rgba(31,41,55,0.7), rgba(31,41,55,0.7)),
-    url('../images/coffee.jpg') center/cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  background-color: #1F2937;
+  padding: 100px 60px;
 }
 
 .hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: 0 auto;
+  gap: 40px;
+}
+
+.hero-text {
+  flex: 1;
   max-width: 500px;
 }
 
-.hero-content h1 {
+.hero-text h1 {
   font-size: 48px;
   font-weight: 800;
   color: #F9FAF8;
   margin-bottom: 10px;
 }
 
-.hero-content p {
+.hero-text p {
   font-size: 18px;
   color: #E5E7EB;
   margin-bottom: 20px;
 }
 
 .btn {
-  background-color: #3882F6; 
+  background-color: #3882F6;
   color: #F9FAF8;
   padding: 10px 25px;
   text-decoration: none;
   border-radius: 5px;
   font-weight: 500;
+}
+
+.hero-img {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.hero-img img {
+  width: 100%;
+  max-width: 450px;
+  height: auto;
 }
 
 .preview {
@@ -107,18 +124,71 @@ body {
   font-size: 14px;
 }
 
-.quote {
+.quote-section {
   background-color: #E5E7EB;
-  padding: 80px 60px;
+  padding: 80px 20px;
+  text-align: center;
 }
 
-.quote p {
+.quote-text {
   font-size: 36px;
-  font-style: 'RobotoItalic';
+  font-family: "RobotoItalic";
+  font-style: italic;
   font-weight: 300;
   color: #1F2937;
-  max-width: 800px;
-  margin: auto;
+}
+
+.cta {
+  padding: 80px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.cta-box {
+  background-color: #3882F6;
+  border-radius: 10px;
+  padding: 40px 60px;
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cta-text h3 {
+  color: #F9FAF8;
+  margin: 0;
+  font-size: 20px;
+}
+
+.cta-text p {
+  color: #E5E7EB;
+  margin-top: 5px;
+  font-size: 16px;
+}
+
+.cta-btn {
+  display: inline-block;
+  border: 2px solid #F9FAF8;
+  color: #F9FAF8;
+  padding: 8px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.cta-btn:hover {
+  background-color: #F9FAF8;
+  color: #3882F6;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #1F2937;
+  color: #F9FAF8;
+  text-align: center;
+  padding: 30px;
+  font-size: 14px;
 }
 
 .menu-row {
@@ -132,7 +202,7 @@ body {
 
 .menu-text {
   flex: 1;
-  background-color: #374151; 
+  background-color: #374151;
   color: #F9FAF8;
   padding: 30px;
   display: flex;
@@ -163,25 +233,4 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover;
-}
-
-.quote-section {
-  background-color: #E5E7EB;
-  padding: 80px 20px;
-  text-align: center;
-}
-
-.quote-text {
-  font-size: 36px;
-  font-style: 'RobotoItalic';
-  font-weight: 300;
-  color: #1F2937;
-}
-
-.footer {
-  background-color: #1F2937; 
-  color: #F9FAF8;
-  text-align: center;
-  padding: 30px;
-  font-size: 14px;
 }
