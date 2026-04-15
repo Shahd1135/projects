@@ -69,6 +69,15 @@ body {
   cursor: pointer;
 }
 
+h2 {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 28px;
+  font-weight: 700;
+  color: #1f2937;
+}
+
 .about-section {
   display: flex;
   align-items: center;

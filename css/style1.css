@@ -33,7 +33,7 @@ body {
   font-size: 18px;
   color: #E5E7EB;
   text-decoration: none;
-  margin-left: 20px;
+  margin-left: 30px;
 }
 
 .hero {
@@ -251,7 +251,7 @@ body {
 }
 
 .menu-img {
-  flex: 1;
+  flex: 1.12;
 }
 
 .menu-img img {
